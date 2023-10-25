@@ -1,0 +1,630 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 54;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0BEC57332ADF14F900F8826F /* apunk.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BEC57322ADF14F900F8826F /* apunk.mp3 */; };
+		0BEC57352ADF16AB00F8826F /* imagine.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BEC57342ADF16AB00F8826F /* imagine.mp3 */; };
+		0BEC57372ADF16CE00F8826F /* break.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BEC57362ADF16CE00F8826F /* break.mp3 */; };
+		0BEC573B2ADF1D5100F8826F /* kids.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BEC57382ADF1D5100F8826F /* kids.mp3 */; };
+		0BEC573C2ADF1D5100F8826F /* kiss.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BEC57392ADF1D5100F8826F /* kiss.mp3 */; };
+		0BEC573D2ADF1D5100F8826F /* why.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 0BEC573A2ADF1D5100F8826F /* why.mp3 */; };
+		6763383D2549DE240065F0E7 /* JukeStarterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6763383C2549DE240065F0E7 /* JukeStarterApp.swift */; };
+		6763383F2549DE240065F0E7 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6763383E2549DE240065F0E7 /* ContentView.swift */; };
+		676338412549DE250065F0E7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676338402549DE250065F0E7 /* Assets.xcassets */; };
+		676338442549DE250065F0E7 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 676338432549DE250065F0E7 /* Preview Assets.xcassets */; };
+		6763384F2549DE250065F0E7 /* JukeStarterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6763384E2549DE250065F0E7 /* JukeStarterTests.swift */; };
+		6763385A2549DE250065F0E7 /* JukeStarterUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676338592549DE250065F0E7 /* JukeStarterUITests.swift */; };
+		6763386F2549DFE20065F0E7 /* twist.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6763386A2549DFE20065F0E7 /* twist.mp3 */; };
+		676338702549DFE20065F0E7 /* dancingqueen.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6763386B2549DFE20065F0E7 /* dancingqueen.mp3 */; };
+		676338712549DFE20065F0E7 /* twistshout.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6763386C2549DFE20065F0E7 /* twistshout.mp3 */; };
+		676338722549DFE20065F0E7 /* stones.m4a in Resources */ = {isa = PBXBuildFile; fileRef = 6763386D2549DFE20065F0E7 /* stones.m4a */; };
+		676338732549DFE20065F0E7 /* walkthisway.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6763386E2549DFE20065F0E7 /* walkthisway.mp3 */; };
+		676338782549EB560065F0E7 /* storage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 676338772549EB560065F0E7 /* storage.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		6763384B2549DE250065F0E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676338312549DE240065F0E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676338382549DE240065F0E7;
+			remoteInfo = JukeStarter;
+		};
+		676338562549DE250065F0E7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 676338312549DE240065F0E7 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 676338382549DE240065F0E7;
+			remoteInfo = JukeStarter;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0BEC57322ADF14F900F8826F /* apunk.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = apunk.mp3; sourceTree = "<group>"; };
+		0BEC57342ADF16AB00F8826F /* imagine.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = imagine.mp3; sourceTree = "<group>"; };
+		0BEC57362ADF16CE00F8826F /* break.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = break.mp3; sourceTree = "<group>"; };
+		0BEC57382ADF1D5100F8826F /* kids.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kids.mp3; sourceTree = "<group>"; };
+		0BEC57392ADF1D5100F8826F /* kiss.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = kiss.mp3; sourceTree = "<group>"; };
+		0BEC573A2ADF1D5100F8826F /* why.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = why.mp3; sourceTree = "<group>"; };
+		676338392549DE240065F0E7 /* JukeStarter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JukeStarter.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6763383C2549DE240065F0E7 /* JukeStarterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukeStarterApp.swift; sourceTree = "<group>"; };
+		6763383E2549DE240065F0E7 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		676338402549DE250065F0E7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		676338432549DE250065F0E7 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		676338452549DE250065F0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6763384A2549DE250065F0E7 /* JukeStarterTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukeStarterTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		6763384E2549DE250065F0E7 /* JukeStarterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukeStarterTests.swift; sourceTree = "<group>"; };
+		676338502549DE250065F0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		676338552549DE250065F0E7 /* JukeStarterUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JukeStarterUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		676338592549DE250065F0E7 /* JukeStarterUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JukeStarterUITests.swift; sourceTree = "<group>"; };
+		6763385B2549DE250065F0E7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6763386A2549DFE20065F0E7 /* twist.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = twist.mp3; sourceTree = "<group>"; };
+		6763386B2549DFE20065F0E7 /* dancingqueen.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = dancingqueen.mp3; sourceTree = "<group>"; };
+		6763386C2549DFE20065F0E7 /* twistshout.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = twistshout.mp3; sourceTree = "<group>"; };
+		6763386D2549DFE20065F0E7 /* stones.m4a */ = {isa = PBXFileReference; lastKnownFileType = file; path = stones.m4a; sourceTree = "<group>"; };
+		6763386E2549DFE20065F0E7 /* walkthisway.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = walkthisway.mp3; sourceTree = "<group>"; };
+		676338772549EB560065F0E7 /* storage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = storage.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		676338362549DE240065F0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676338472549DE250065F0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676338522549DE250065F0E7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		676338302549DE240065F0E7 = {
+			isa = PBXGroup;
+			children = (
+				6763383B2549DE240065F0E7 /* JukeStarter */,
+				6763384D2549DE250065F0E7 /* JukeStarterTests */,
+				676338582549DE250065F0E7 /* JukeStarterUITests */,
+				6763383A2549DE240065F0E7 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6763383A2549DE240065F0E7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				676338392549DE240065F0E7 /* JukeStarter.app */,
+				6763384A2549DE250065F0E7 /* JukeStarterTests.xctest */,
+				676338552549DE250065F0E7 /* JukeStarterUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6763383B2549DE240065F0E7 /* JukeStarter */ = {
+			isa = PBXGroup;
+			children = (
+				6763383C2549DE240065F0E7 /* JukeStarterApp.swift */,
+				6763383E2549DE240065F0E7 /* ContentView.swift */,
+				676338772549EB560065F0E7 /* storage.swift */,
+				676338402549DE250065F0E7 /* Assets.xcassets */,
+				6763386B2549DFE20065F0E7 /* dancingqueen.mp3 */,
+				6763386D2549DFE20065F0E7 /* stones.m4a */,
+				0BEC57322ADF14F900F8826F /* apunk.mp3 */,
+				0BEC57382ADF1D5100F8826F /* kids.mp3 */,
+				0BEC57392ADF1D5100F8826F /* kiss.mp3 */,
+				0BEC573A2ADF1D5100F8826F /* why.mp3 */,
+				0BEC57362ADF16CE00F8826F /* break.mp3 */,
+				6763386A2549DFE20065F0E7 /* twist.mp3 */,
+				6763386C2549DFE20065F0E7 /* twistshout.mp3 */,
+				0BEC57342ADF16AB00F8826F /* imagine.mp3 */,
+				6763386E2549DFE20065F0E7 /* walkthisway.mp3 */,
+				676338452549DE250065F0E7 /* Info.plist */,
+				676338422549DE250065F0E7 /* Preview Content */,
+			);
+			path = JukeStarter;
+			sourceTree = "<group>";
+		};
+		676338422549DE250065F0E7 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				676338432549DE250065F0E7 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		6763384D2549DE250065F0E7 /* JukeStarterTests */ = {
+			isa = PBXGroup;
+			children = (
+				6763384E2549DE250065F0E7 /* JukeStarterTests.swift */,
+				676338502549DE250065F0E7 /* Info.plist */,
+			);
+			path = JukeStarterTests;
+			sourceTree = "<group>";
+		};
+		676338582549DE250065F0E7 /* JukeStarterUITests */ = {
+			isa = PBXGroup;
+			children = (
+				676338592549DE250065F0E7 /* JukeStarterUITests.swift */,
+				6763385B2549DE250065F0E7 /* Info.plist */,
+			);
+			path = JukeStarterUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		676338382549DE240065F0E7 /* JukeStarter */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6763385E2549DE250065F0E7 /* Build configuration list for PBXNativeTarget "JukeStarter" */;
+			buildPhases = (
+				676338352549DE240065F0E7 /* Sources */,
+				676338362549DE240065F0E7 /* Frameworks */,
+				676338372549DE240065F0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = JukeStarter;
+			productName = JukeStarter;
+			productReference = 676338392549DE240065F0E7 /* JukeStarter.app */;
+			productType = "com.apple.product-type.application";
+		};
+		676338492549DE250065F0E7 /* JukeStarterTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676338612549DE250065F0E7 /* Build configuration list for PBXNativeTarget "JukeStarterTests" */;
+			buildPhases = (
+				676338462549DE250065F0E7 /* Sources */,
+				676338472549DE250065F0E7 /* Frameworks */,
+				676338482549DE250065F0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6763384C2549DE250065F0E7 /* PBXTargetDependency */,
+			);
+			name = JukeStarterTests;
+			productName = JukeStarterTests;
+			productReference = 6763384A2549DE250065F0E7 /* JukeStarterTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		676338542549DE250065F0E7 /* JukeStarterUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 676338642549DE250065F0E7 /* Build configuration list for PBXNativeTarget "JukeStarterUITests" */;
+			buildPhases = (
+				676338512549DE250065F0E7 /* Sources */,
+				676338522549DE250065F0E7 /* Frameworks */,
+				676338532549DE250065F0E7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				676338572549DE250065F0E7 /* PBXTargetDependency */,
+			);
+			name = JukeStarterUITests;
+			productName = JukeStarterUITests;
+			productReference = 676338552549DE250065F0E7 /* JukeStarterUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		676338312549DE240065F0E7 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = YES;
+				LastSwiftUpdateCheck = 1200;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					676338382549DE240065F0E7 = {
+						CreatedOnToolsVersion = 12.0;
+					};
+					676338492549DE250065F0E7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 676338382549DE240065F0E7;
+					};
+					676338542549DE250065F0E7 = {
+						CreatedOnToolsVersion = 12.0;
+						TestTargetID = 676338382549DE240065F0E7;
+					};
+				};
+			};
+			buildConfigurationList = 676338342549DE240065F0E7 /* Build configuration list for PBXProject "JukeStarter" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 676338302549DE240065F0E7;
+			productRefGroup = 6763383A2549DE240065F0E7 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				676338382549DE240065F0E7 /* JukeStarter */,
+				676338492549DE250065F0E7 /* JukeStarterTests */,
+				676338542549DE250065F0E7 /* JukeStarterUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		676338372549DE240065F0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0BEC57372ADF16CE00F8826F /* break.mp3 in Resources */,
+				676338702549DFE20065F0E7 /* dancingqueen.mp3 in Resources */,
+				676338442549DE250065F0E7 /* Preview Assets.xcassets in Resources */,
+				0BEC57352ADF16AB00F8826F /* imagine.mp3 in Resources */,
+				676338722549DFE20065F0E7 /* stones.m4a in Resources */,
+				676338732549DFE20065F0E7 /* walkthisway.mp3 in Resources */,
+				676338412549DE250065F0E7 /* Assets.xcassets in Resources */,
+				676338712549DFE20065F0E7 /* twistshout.mp3 in Resources */,
+				0BEC573C2ADF1D5100F8826F /* kiss.mp3 in Resources */,
+				0BEC573D2ADF1D5100F8826F /* why.mp3 in Resources */,
+				6763386F2549DFE20065F0E7 /* twist.mp3 in Resources */,
+				0BEC573B2ADF1D5100F8826F /* kids.mp3 in Resources */,
+				0BEC57332ADF14F900F8826F /* apunk.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676338482549DE250065F0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676338532549DE250065F0E7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		676338352549DE240065F0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				676338782549EB560065F0E7 /* storage.swift in Sources */,
+				6763383F2549DE240065F0E7 /* ContentView.swift in Sources */,
+				6763383D2549DE240065F0E7 /* JukeStarterApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676338462549DE250065F0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6763384F2549DE250065F0E7 /* JukeStarterTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		676338512549DE250065F0E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6763385A2549DE250065F0E7 /* JukeStarterUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6763384C2549DE250065F0E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676338382549DE240065F0E7 /* JukeStarter */;
+			targetProxy = 6763384B2549DE250065F0E7 /* PBXContainerItemProxy */;
+		};
+		676338572549DE250065F0E7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 676338382549DE240065F0E7 /* JukeStarter */;
+			targetProxy = 676338562549DE250065F0E7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		6763385C2549DE250065F0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		6763385D2549DE250065F0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6763385F2549DE250065F0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JukeStarter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JukeStarter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candidates.JukeStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		676338602549DE250065F0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"JukeStarter/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = JukeStarter/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candidates.JukeStarter;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		676338622549DE250065F0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JukeStarterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candidates.JukeStarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JukeStarter.app/JukeStarter";
+			};
+			name = Debug;
+		};
+		676338632549DE250065F0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JukeStarterTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candidates.JukeStarterTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/JukeStarter.app/JukeStarter";
+			};
+			name = Release;
+		};
+		676338652549DE250065F0E7 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JukeStarterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candidates.JukeStarterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JukeStarter;
+			};
+			name = Debug;
+		};
+		676338662549DE250065F0E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = JukeStarterUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.candidates.JukeStarterUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = JukeStarter;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		676338342549DE240065F0E7 /* Build configuration list for PBXProject "JukeStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6763385C2549DE250065F0E7 /* Debug */,
+				6763385D2549DE250065F0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6763385E2549DE250065F0E7 /* Build configuration list for PBXNativeTarget "JukeStarter" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6763385F2549DE250065F0E7 /* Debug */,
+				676338602549DE250065F0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676338612549DE250065F0E7 /* Build configuration list for PBXNativeTarget "JukeStarterTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676338622549DE250065F0E7 /* Debug */,
+				676338632549DE250065F0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		676338642549DE250065F0E7 /* Build configuration list for PBXNativeTarget "JukeStarterUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				676338652549DE250065F0E7 /* Debug */,
+				676338662549DE250065F0E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 676338312549DE240065F0E7 /* Project object */;
+}
